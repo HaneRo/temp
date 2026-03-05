@@ -1,0 +1,12 @@
+serverAddr = "172.67.172.238"
+serverPort = 7000
+auth.method = "token"
+auth.token = "freefrp.net"
+
+[[proxies]]
+name = "HaneRo_web"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 65535
+remotePort = 22356
+
